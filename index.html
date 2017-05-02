@@ -15,6 +15,7 @@
     <link href="css/prettyPhoto.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
     <link href="css/responsive.css" rel="stylesheet">
+    <link href="css/ihover.css" rel="stylesheet">
     <!--[if lt IE 9]>
     <script src="js/html5shiv.js"></script>
     <script src="js/respond.min.js"></script>
@@ -91,12 +92,84 @@
         </div><!--/.owl-carousel-->
     </section><!--/#main-slider-->
 
+    <!--Seccion "Ver más" con efectos hover-->
+    <div class="fondo">
+        <div class="section-header" id="about">
+            <h2 class="section-title text-center wow fadeInDown" style="color: #fff;"> COCREALAB</h2>
+            <h4 class="text-center wow fadeInDown" style="color: #fff;">Conociendo un poco más...</h4>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                <!-- efecto 1 -->
+                <div class="ih-item circle effect1 left_to_right">
+                    <a href="#">
+                        <div class="img"><img src="images/hover/1.jpg" alt="img"></div>
+                        <div class="info">
+                          <h3>Creación</h3>
+                          <p>Descripción aquí... ...</p>
+                        </div>
+                    </a>
+                </div>
+                <!-- fin efecto 1 -->
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                <!-- efecto 2 -->
+                <div class="ih-item circle effect2 left_to_right">
+                    <a href="#">
+                        <div class="img"><img src="images/hover/2.jpg" alt="img"></div>
+                        <div class="info">
+                          <h3>Logotipo</h3>
+                          <p>Descripción aquí... ...</p>
+                        </div>
+                    </a>
+                </div>
+                <!-- fin efecto 2 -->
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                <!-- efecto 3 -->
+                <div class="ih-item circle colored effect3 bottom_to_top">
+                    <a href="#">
+                        <div class="img-container">
+                          <div class="img"><img src="images/hover/3.jpg" alt="img"></div>
+                        </div>
+                        <div class="info-container">
+                          <div class="info">
+                            <h3>Titulo</h3>
+                            <p>Descripción aquí... ...</p>
+                          </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- fin efecto 3 -->
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                <!-- efecto 4 -->
+                <div class="ih-item circle effect4 bottom_to_top">
+                    <a href="#">
+                        <div class="img"><img src="images/hover/4.jpg" alt="img"></div>
+                        <div class="info">
+                          <div class="info-back">
+                            <h3>Titulo</h3>
+                            <p>Descripción aquí... ...</p>
+                          </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- fin efecto 4 -->
+            </div>
+        </div>
+    </div> <!--Fin de Seccion "Ver más" con efectos hover-->
+  <br>
+
     <section id="cta2">
         <div class="container">
             <div class="text-center">
                 <h2 class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="0ms">¿Quieres ser parte de <span>CocreaLab</span> ?</h2>
                 <p class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="100ms">Regístrate y sé parte de la comunidad que está transformando el mundo </br>a través del desarrollo de productos de tecnología de código abierto</p>
-                <p class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="200ms"><a class="btn btn-primary btn-lg" href="#get-in-touch">Registro</a></p>
+                <p class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="200ms"><a class="btn btn-primary btn-lg" href="registro.html">Registro</a></p>
                 <img class="img-responsive wow fadeIn" src="images/cta2/cta2-img.png" alt="" data-wow-duration="300ms" data-wow-delay="300ms">
             </div>
         </div>
@@ -117,8 +190,33 @@
                             <i class="fa fa-user fa-2x"></i>
                         </div>
                         <h3>REGISTRO</h3>
+                        <a href="#registro" class="btn btn-primary btn-lg" data-toggle="modal">Ver más</a>
                     </div>
                 </div>
+                <!--Efecto modals-->
+                <div class="modal fade" id="registro">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+
+                            <!--Header de la ventana-->
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                <h4 class="modal-title">REGISTRO</h4>
+                            </div>
+
+                            <!--contenido de la ventana-->
+                            <div class="modal-body text-justify" style="color: #000;">
+                                <p>El primer paso para hacer parte de CocreaLab es realizar el respectivo registro, enviando los datos a traves del formulario... ... </p>
+                            </div>
+
+                            <!--footer de la ventana-->
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-success" data-dismiss="modal">Cerrar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--Fin Efecto modals-->
+
                 <div class="col-md-2 col-md-4 col-xs-6">
                     <div class="wow fadeInUp" data-wow-duration="400ms" data-wow-delay="100ms">
                         <div class="icon-circle">
@@ -126,8 +224,33 @@
                             <i class="fa fa-calendar fa-2x"></i>
                         </div>
                         <h3>PLAN</h3>
+                        <a href="#plan" class="btn btn-primary btn-lg" data-toggle="modal">Ver más</a>
                     </div>
                 </div>
+                <!--Efecto modals-->
+                <div class="modal fade" id="plan">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+
+                            <!--Header de la ventana-->
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                <h4 class="modal-title">PLAN</h4>
+                            </div>
+
+                            <!--contenido de la ventana-->
+                            <div class="modal-body text-justify" style="color: #000;">
+                                <p>El segundo paso para hacer parte de CocreaLab es ... ... </p>
+                            </div>
+
+                            <!--footer de la ventana-->
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-success" data-dismiss="modal">Cerrar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--Fin Efecto modals-->
+
                 <div class="col-md-2 col-md-4 col-xs-6">
                     <div class="wow fadeInUp" data-wow-duration="400ms" data-wow-delay="200ms">
                         <div class="icon-circle">
@@ -135,8 +258,33 @@
                             <i class="fa fa-image fa-2x"></i>
                         </div>
                         <h3>DISEÑO</h3>
+                        <a href="#diseño" class="btn btn-primary btn-lg" data-toggle="modal">Ver más</a>
                     </div>
                 </div>
+                <!--Efecto modals-->
+                <div class="modal fade" id="diseño">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+
+                            <!--Header de la ventana-->
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                <h4 class="modal-title">DISEÑO</h4>
+                            </div>
+
+                            <!--contenido de la ventana-->
+                            <div class="modal-body text-justify" style="color: #000;">
+                                <p>El tercer paso para hacer parte de CocreaLab es ... ... </p>
+                            </div>
+
+                            <!--footer de la ventana-->
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-success" data-dismiss="modal">Cerrar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--Fin Efecto modals-->
+
                 <div class="col-md-2 col-md-4 col-xs-6">
                     <div class="wow fadeInUp" data-wow-duration="400ms" data-wow-delay="300ms">
                         <div class="icon-circle">
@@ -144,8 +292,33 @@
                             <i class="fa fa-heart fa-2x"></i>
                         </div>
                         <h3>DESARROLLO</h3>
+                        <a href="#desarrollo" class="btn btn-primary btn-lg" data-toggle="modal">Ver más</a>
                     </div>
                 </div>
+                <!--Efecto modals-->
+                <div class="modal fade" id="desarrollo">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+
+                            <!--Header de la ventana-->
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                <h4 class="modal-title">DESARROLLO</h4>
+                            </div>
+
+                            <!--contenido de la ventana-->
+                            <div class="modal-body text-justify" style="color: #000;">
+                                <p>El cuarto paso para hacer parte de CocreaLab es ... ... </p>
+                            </div>
+
+                            <!--footer de la ventana-->
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-success" data-dismiss="modal">Cerrar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--Fin Efecto modals-->
+
                 <div class="col-md-2 col-md-4 col-xs-6">
                     <div class="wow fadeInUp" data-wow-duration="400ms" data-wow-delay="400ms">
                         <div class="icon-circle">
@@ -153,8 +326,33 @@
                             <i class="fa fa-check fa-2x"></i>
                         </div>
                         <h3>PRUEBA</h3>
+                        <a href="#prueba" class="btn btn-primary btn-lg" data-toggle="modal">Ver más</a>
                     </div>
                 </div>
+                <!--Efecto modals-->
+                <div class="modal fade" id="prueba">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+
+                            <!--Header de la ventana-->
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                <h4 class="modal-title">PRUEBA</h4>
+                            </div>
+
+                            <!--contenido de la ventana-->
+                            <div class="modal-body text-justify" style="color: #000;">
+                                <p>El quinto paso para hacer parte de CocreaLab es ... ... </p>
+                            </div>
+
+                            <!--footer de la ventana-->
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-success" data-dismiss="modal">Cerrar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--Fin Efecto modals-->
+
                 <div class="col-md-2 col-md-4 col-xs-6">
                     <div class="wow fadeInUp" data-wow-duration="400ms" data-wow-delay="500ms">
                         <div class="icon-circle">
@@ -162,8 +360,33 @@
                             <i class="fa fa-space-shuttle fa-2x"></i>
                         </div>
                         <h3>PUBLICACIÓN</h3>
+                        <a href="#publicacion" class="btn btn-primary btn-lg" data-toggle="modal">Ver más</a>
                     </div>
                 </div>
+                <!--Efecto modals-->
+                <div class="modal fade" id="publicacion">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+
+                            <!--Header de la ventana-->
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                <h4 class="modal-title">PUBLICACIÓN</h4>
+                            </div>
+
+                            <!--contenido de la ventana-->
+                            <div class="modal-body text-justify" style="color: #000;">
+                                <p>El ultimo paso para hacer parte de CocreaLab es ... ... </p>
+                            </div>
+
+                            <!--footer de la ventana-->
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-success" data-dismiss="modal">Cerrar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--Fin Efecto modals-->
+
             </div>
         </div>
     </section><!--/#work-process-->
