@@ -1,5 +1,14 @@
-.fondo{
-  background: #40404D;
+#Hover{
+  background: #F5F5F9;
+  padding-bottom: 100px;
+}
+
+#Hover h4 {
+  color: #87898A;
+}
+
+#Hover h2 > span{
+  color: #45aed6;
 }
 .ih-item {
   position: relative;
@@ -73,7 +82,7 @@
   background: #1a4a72;
 }
 .ih-item.circle.effect1 .info {
-  background: #2C86B4;
+  background: #45aed6;
   opacity: 0;
   pointer-events: none;
   -webkit-transition: all 0.35s ease-in-out;
@@ -230,7 +239,7 @@
   background: #1a4a72;
 }
 .ih-item.circle.effect2 .info {
-  background: #2C86B4;
+  background: #45aed6;
   -webkit-transition: all 0.35s ease-in-out;
   -moz-transition: all 0.35s ease-in-out;
   transition: all 0.35s ease-in-out;
@@ -313,7 +322,7 @@
 }
 
 .ih-item.circle.effect3.colored .info {
-  background: #2C86B4;
+  background: #45aed6;
 }
 .ih-item.circle.effect3 .img-container {
   -webkit-transform: scale(1);
@@ -543,7 +552,7 @@
   border-radius: 50%;
   width: 100%;
   height: 100%;
-  background: #2C86B4;
+  background: #45aed6;
 }
 .ih-item.circle.effect4 .info h3 {
   color: #fff;
