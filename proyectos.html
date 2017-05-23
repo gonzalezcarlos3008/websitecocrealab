@@ -15,6 +15,7 @@
     <link href="css/prettyPhoto.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
     <link href="css/responsive.css" rel="stylesheet">
+    <link href="css/style-proyectos.css" rel="stylesheet">
     <!--[if lt IE 9]>
     <script src="js/html5shiv.js"></script>
     <script src="js/respond.min.js"></script>
@@ -63,46 +64,383 @@
                 <h2 class="section-title text-center wow fadeInDown">Proyectos</h2>
             </div>
 
-            <div class="text-center">
-                <ul class="portfolio-filter">
-                    <li><a class="active" href="#" data-filter="*">Todos</a></li>
-                    <li><a href="#" data-filter=".corporate">Gestión</a></li>
-                    <li><a href="#" data-filter=".creative">Visualización</a></li>
-                </ul><!--/#portfolio-filter-->
+             <div id="menu" class="col-md-3">
+                <!-- Acordeon-->
+
+                <div class="panel-group" id="accordion" role="tablist">
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="heading1">
+                            <h4 class="panel-title">
+                                <a href="#collapse1" data-toggle="collapse" data-parent="#accordion">
+                                    Todos
+                                    <span class="badge"> 20</span>
+                                </a>
+                            </h4>
+                        </div>
+
+                        <div id="collapse1" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p><strong>1.</strong> Plataforma Cocrealab</p>
+                                <p><strong>2.</strong> Visualización Entidades Públicas</p>
+                                <p><strong>3.</strong> Visualización Ruta Excelencia</p>
+                                <p><strong>4.</strong> Nombre del Proyecto</p>
+                                <p><strong>5.</strong> Nombre del Proyecto</p>
+                                <p><strong>6.</strong> Nombre del Proyecto</p>
+                                <p><strong>7.</strong> Nombre del Proyecto</p>
+                                <p><strong>8.</strong> Nombre del Proyecto</p>
+                                <p><strong>9.</strong> Nombre del Proyecto</p>
+                                <p><strong>10.</strong> Nombre del Proyecto</p>
+                                <p><strong>11.</strong> Nombre del Proyecto</p>
+                                <p><strong>12.</strong> Nombre del Proyecto</p>
+                                <p><strong>13.</strong> Nombre del Proyecto</p>
+                                <p><strong>14.</strong> Nombre del Proyecto</p>
+                                <p><strong>15.</strong> Nombre del Proyecto</p>
+                                <p><strong>16.</strong> Nombre del Proyecto</p>
+                                <p><strong>17.</strong> Nombre del Proyecto</p>
+                                <p><strong>18.</strong> Nombre del Proyecto</p>
+                                <p><strong>19.</strong> Nombre del Proyecto</p>
+                                <p><strong>20.</strong> Nombre del Proyecto</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="heading2">
+                            <h4 class="panel-title">
+                                <a href="#collapse2" data-toggle="collapse" data-parent="#accordion">
+                                    Gestión
+                                    <span class="badge"> 6</span>
+                                </a>
+                            </h4>
+                        </div>
+
+                        <div id="collapse2" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p><strong>1.</strong> Plataforma Cocrealab</p>
+                                <p><strong>2.</strong> Nombre del Proyecto</p>
+                                <p><strong>3.</strong> Nombre del Proyecto</p>
+                                <p><strong>4.</strong> Nombre del Proyecto</p>
+                                <p><strong>5.</strong> Nombre del Proyecto</p>
+                                <p><strong>6.</strong> Nombre del Proyecto</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="heading3">
+                            <h4 class="panel-title">
+                                <a href="#collapse3" data-toggle="collapse" data-parent="#accordion">
+                                    Visualización
+                                    <span class="badge"> 8</span>
+                                </a>
+                            </h4>
+                        </div>
+
+                        <div id="collapse3" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p><strong>1.</strong> Visualización Entidades Públicas</p>
+                                <p><strong>2.</strong> Visualización Ruta Excelencia</p>
+                                <p><strong>3.</strong> Nombre del Proyecto</p>
+                                <p><strong>4.</strong> Nombre del Proyecto</p>
+                                <p><strong>5.</strong> Nombre del Proyecto</p>
+                                <p><strong>6.</strong> Nombre del Proyecto</p>
+                                <p><strong>7.</strong> Nombre del Proyecto</p>
+                                <p><strong>8.</strong> Nombre del Proyecto</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
-            <div class="portfolio-items">
-                <div class="portfolio-item corporate portfolio">
-                    <div class="portfolio-item-inner">
-                        <img class="img-responsive" src="images/portfolio/01.jpg" alt="">
-                        <div class="portfolio-info">
-                            <h3>Plataforma CocreaLab</h3>
-                            Permite gestionar la información de miembros y proyectos de CocreaLab
-                        </div>
-                    </div>
-                </div><!--/.portfolio-item-->
+            <div class="col-md-6">
+                <div class="btn-group">
+                    <button class="btn btn-lg btn-block btn-default pr">Plataforma CocreaLab</button>
+                    <a href="#plataforma-c" class="btn btn-primary btn-lg" data-toggle="modal">Ver</a>
+                    <!--Efecto modals-->
+                    <div class="modal fade" id="plataforma-c">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
 
-                <div class="portfolio-item creative portfolio">
-                    <div class="portfolio-item-inner">
-                        <img class="img-responsive" src="images/portfolio/02.jpg" alt="">
-                        <div class="portfolio-info">
-                            <h3>Visualización Entidades Públicas</h3>
-                            Permite visualizar la información y ubicación de las entidades públicas
+                                <!--Header de la ventana-->
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                    <h4 class="modal-title">PLATAFORMA COCREALAB</h4>
+                                </div>
+
+                                <!--contenido de la ventana-->
+                                <div class="modal-body text-justify" style="color: #000;">
+                                    <p>Permite gestionar la información de miembros y proyectos de CocreaLab</p>
+                                </div>
+
+                                <!--footer de la ventana-->
+                                <div class="modal-footer">
+                                    <a href="#" class="btn btn-success">Ver proyecto</a>
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div><!--/.portfolio-item-->
-                
-                <div class="portfolio-item creative portfolio">
-                    <div class="portfolio-item-inner">
-                        <img class="img-responsive" src="images/portfolio/03.jpg" alt="">
-                        <div class="portfolio-info">
-                            <h3>Visualización Ruta Excelencia</h3>
-                            Permite visualizar la información de los trámites de la ruta de la excelencia
+                    </div><!--Fin Efecto modals-->
+
+                    <button class="btn btn-lg btn-block btn-default pr">Visualización de Entidades públicas</button>
+                    <a href="#visualizacion-e" class="btn btn-primary btn-lg" data-toggle="modal">Ver</a>
+                    <!--Efecto modals-->
+                    <div class="modal fade" id="visualizacion-e">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+
+                                <!--Header de la ventana-->
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                    <h4 class="modal-title">VISUALIZACIÓN DE ENTIDADES PÚBLICAS</h4>
+                                </div>
+
+                                <!--contenido de la ventana-->
+                                <div class="modal-body text-justify" style="color: #000;">
+                                    <p>Permite visualizar la información y ubicación de las entidades públicas</p>
+                                </div>
+
+                                <!--footer de la ventana-->
+                                <div class="modal-footer">
+                                    <a href="#" class="btn btn-success">Ver proyecto</a>
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div><!--/.portfolio-item-->
-                
+                    </div><!--Fin Efecto modals-->
+
+                    <button class="btn btn-lg btn-block btn-default pr">Visualización Ruta de la Excelencia</button>
+                    <a href="#visualizacion-r" class="btn btn-primary btn-lg" data-toggle="modal">Ver</a>
+                    <!--Efecto modals-->
+                    <div class="modal fade" id="visualizacion-r">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+
+                                <!--Header de la ventana-->
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                    <h4 class="modal-title">VISUALIZACIÓN RUTA DE LA EXCELENCIA</h4>
+                                </div>
+
+                                <!--contenido de la ventana-->
+                                <div class="modal-body text-justify" style="color: #000;">
+                                    <p>Permite visualizar la información de los trámites de la ruta de la excelencia</p>
+                                </div>
+
+                                <!--footer de la ventana-->
+                                <div class="modal-footer">
+                                    <a href="#" class="btn btn-success">Ver proyecto</a>
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--Fin Efecto modals-->
+
+                    <button class="btn btn-lg btn-block btn-default pr">---------</button>
+                    <a href="#otro" class="btn btn-primary btn-lg" data-toggle="modal">Ver</a>
+                    <!--Efecto modals-->
+                    <div class="modal fade" id="otro">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+
+                                <!--Header de la ventana-->
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                    <h4 class="modal-title">"NOMBRE" DEL PROYECTO"</h4>
+                                </div>
+
+                                <!--contenido de la ventana-->
+                                <div class="modal-body text-justify" style="color: #000;">
+                                    <p>Descripción ... ... </p>
+                                </div>
+
+                                <!--footer de la ventana-->
+                                <div class="modal-footer">
+                                    <a href="#" class="btn btn-success">Ver proyecto</a>
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--Fin Efecto modals-->
+
+                    <button class="btn btn-lg btn-block btn-default pr">---------</button>
+                    <a href="#otro" class="btn btn-primary btn-lg" data-toggle="modal">Ver</a>
+                    <!--Efecto modals-->
+                    <div class="modal fade" id="otro">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+
+                                <!--Header de la ventana-->
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                    <h4 class="modal-title">"NOMBRE" DEL PROYECTO"</h4>
+                                </div>
+
+                                <!--contenido de la ventana-->
+                                <div class="modal-body text-justify" style="color: #000;">
+                                    <p>Descripción ... ... </p>
+                                </div>
+
+                                <!--footer de la ventana-->
+                                <div class="modal-footer">
+                                    <a href="#" class="btn btn-success">Ver proyecto</a>
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--Fin Efecto modals-->
+
+                    <button class="btn btn-lg btn-block btn-default pr">---------</button>
+                    <a href="#otro" class="btn btn-primary btn-lg" data-toggle="modal">Ver</a>
+                    <!--Efecto modals-->
+                    <div class="modal fade" id="otro">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+
+                                <!--Header de la ventana-->
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                    <h4 class="modal-title">"NOMBRE" DEL PROYECTO"</h4>
+                                </div>
+
+                                <!--contenido de la ventana-->
+                                <div class="modal-body text-justify" style="color: #000;">
+                                    <p>Descripción ... ... </p>
+                                </div>
+
+                                <!--footer de la ventana-->
+                                <div class="modal-footer">
+                                    <a href="#" class="btn btn-success">Ver proyecto</a>
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--Fin Efecto modals-->
+
+                    <button class="btn btn-lg btn-block btn-default pr">---------</button>
+                    <a href="#otro" class="btn btn-primary btn-lg" data-toggle="modal">Ver</a>
+                    <!--Efecto modals-->
+                    <div class="modal fade" id="otro">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+
+                                <!--Header de la ventana-->
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                    <h4 class="modal-title">"NOMBRE" DEL PROYECTO"</h4>
+                                </div>
+
+                                <!--contenido de la ventana-->
+                                <div class="modal-body text-justify" style="color: #000;">
+                                    <p>Descripción ... ... </p>
+                                </div>
+
+                                <!--footer de la ventana-->
+                                <div class="modal-footer">
+                                    <a href="#" class="btn btn-success">Ver proyecto</a>
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--Fin Efecto modals-->
+
+                    <button class="btn btn-lg btn-block btn-default pr">---------</button>
+                    <a href="#otro" class="btn btn-primary btn-lg" data-toggle="modal">Ver</a>
+                    <!--Efecto modals-->
+                    <div class="modal fade" id="otro">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+
+                                <!--Header de la ventana-->
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                    <h4 class="modal-title">"NOMBRE" DEL PROYECTO"</h4>
+                                </div>
+
+                                <!--contenido de la ventana-->
+                                <div class="modal-body text-justify" style="color: #000;">
+                                    <p>Descripción ... ... </p>
+                                </div>
+
+                                <!--footer de la ventana-->
+                                <div class="modal-footer">
+                                    <a href="#" class="btn btn-success">Ver proyecto</a>
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--Fin Efecto modals-->
+
+                    <button class="btn btn-lg btn-block btn-default pr">---------</button>
+                    <a href="#otro" class="btn btn-primary btn-lg" data-toggle="modal">Ver</a>
+                    <!--Efecto modals-->
+                    <div class="modal fade" id="otro">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+
+                                <!--Header de la ventana-->
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                    <h4 class="modal-title">"NOMBRE" DEL PROYECTO"</h4>
+                                </div>
+
+                                <!--contenido de la ventana-->
+                                <div class="modal-body text-justify" style="color: #000;">
+                                    <p>Descripción ... ... </p>
+                                </div>
+
+                                <!--footer de la ventana-->
+                                <div class="modal-footer">
+                                    <a href="#" class="btn btn-success">Ver proyecto</a>
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--Fin Efecto modals-->
+                </div>
             </div>
+
+            <aside class="col-md-3 hidden-xs hidden-sm">
+               <div id="carousel-1" class="carousel slide" data-ride="carousel">
+                
+                    <!--Contenedor de los slide-->
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <img src="images/portfolio/1.jpg" class="img-responsive" alt="">
+                            <div class="carousel-caption hidden-xs hidden-sm">
+                                <h3>Plataforma CocreaLab</h3>
+                                <p><mark>Permite gestionar la información de miembros y proyectos de CocreaLab</mark></p>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <img src="images/portfolio/2.jpg" class="img-responsive" alt="">
+                            <div class="carousel-caption hidden-xs hidden-sm">
+                                <h3>Visualización Entidades Públicas</h3>
+                                <p><mark>Permite visualizar la información y ubicación de las entidades públicas</mark></p>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <img src="images/portfolio/3.jpg" class="img-responsive" alt="">
+                            <div class="carousel-caption hidden-xs hidden-sm">
+                                <h3>Visualización Ruta Excelencia</h3>
+                                <p><mark>Permite visualizar la información de los trámites de la ruta de la excelencia</mark></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Controles-->
+                    <a href="#carousel-1" class="left carousel-control" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden></span>
+                        <span class="sr-only">Anterior</span>
+                    </a>
+                    <a href="#carousel-1" class="right carousel-control" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden></span>
+                        <span class="sr-only">Siguiente</span>
+                    </a>
+                </div>
+            </aside>
+
         </div><!--/.container-->
     </section><!--/#portfolio-->
 
