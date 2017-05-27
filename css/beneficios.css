@@ -1,0 +1,75 @@
+
+.row{
+    margin-bottom: 50px;
+}
+.serviceBox{
+    text-align: center;
+    padding:70px 20px;
+    border-bottom:4px solid hsl(189, 100%, 40%);
+    background:hsl(0, 0%, 20%);
+    float:left;
+    transition:all 0.5s ease-in-out;
+    margin: 0 -15px;
+}
+.serviceBox.light_green{
+    border-bottom:4px solid hsl(100, 58%, 68%);
+}
+.serviceBox.yellow{
+    border-bottom:4px solid hsl(48, 99%, 66%);
+}
+
+.serviceBox .service-icon i{
+    color: hsl(189, 100%, 40%);
+    font-size: 48px;
+    text-align: center;
+}
+.serviceBox.light_green .service-icon i{
+    color:hsl(100, 58%, 68%);
+}
+.serviceBox.yellow .service-icon i{
+    color:hsl(48, 99%, 66%);
+}
+
+.serviceBox .service-content h3{
+    color: hsl(189, 100%, 40%);
+    font-size:23px;
+}
+.serviceBox.light_green .service-content h3{
+    color:hsl(100, 58%, 68%);
+}
+.serviceBox.yellow .service-content h3{
+    color:hsl(48, 99%, 66%);
+}
+
+.serviceBox .service-content p{
+    color:#fff;
+}
+.serviceBox:hover .service-content h3, .serviceBox:hover .service-icon i{
+    color:#fff;
+}
+.serviceBox:hover{
+    background:hsl(189, 100%, 40%);
+    transition:all 0.5s ease-in-out;
+    color:#fff;
+}
+.serviceBox.light_green:hover{
+    background:hsl(100, 58%, 68%);
+}
+.serviceBox.yellow:hover{
+    background:hsl(48, 99%, 66%);
+}
+
+@media screen and (max-width: 990px){
+    .serviceBox{
+        margin-bottom: 30px;
+
+    }
+    .row{
+       margin-bottom: 20px; 
+    }
+}
+@media screen and (max-width: 767px){
+    .serviceBox{
+        margin: 0 0 30px 0;
+    }
+}
