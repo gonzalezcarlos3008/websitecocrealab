@@ -2,7 +2,7 @@
 /*EFECTO HOVER-circle - página Home*/
 
 #Hover{
-  background: #F5F5F9;
+  
   padding-bottom: 100px;
 }
 
@@ -37,6 +37,7 @@
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+
 }
 .ih-item a {
   color: #333;

@@ -491,6 +491,13 @@ ul.nostyle i {
   -o-transition-duration: 0s;
   transition-duration: 0s;
 }
+/*Efectos Pagina Proyectos*/
+.enlace1{
+  background: #D9E3F7;
+}
+.enlace2{
+  background: #D9F7DC;
+}
 /* End: Recommended Isotope styles */
 /* disable CSS transitions for containers with infinite scrolling*/
 .isotope.infinite-scrolling {
@@ -521,6 +528,7 @@ ul.nostyle i {
 #about {
   padding: 100px 0 30px 0;
 }
+
 #work-process {
   padding: 100px 0 50px;
   background: #20222e url(../images/work-process/bg.jpg) no-repeat 0 0;
