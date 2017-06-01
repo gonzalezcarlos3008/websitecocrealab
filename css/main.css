@@ -494,9 +494,11 @@ ul.nostyle i {
 /*Efectos Pagina Proyectos*/
 .enlace1{
   background: #D9E3F7;
+  box-shadow: 6px 6px 11px 0px #BFBDBD; 
 }
 .enlace2{
   background: #D9F7DC;
+  box-shadow: 6px 6px 11px 0px #BFBDBD;
 }
 /* End: Recommended Isotope styles */
 /* disable CSS transitions for containers with infinite scrolling*/

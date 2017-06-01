@@ -90,6 +90,8 @@
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
+
+/*EFECTO 1 - Boton Pagina - Home*/
 .ih-item.circle.effect1 .img {
   z-index: 11;
   -webkit-transition: all 0.35s ease-in-out;
@@ -247,6 +249,8 @@
   transform: translateY(0);
 }
 
+/*EFECTO 2 - Boton Pagina - Home*/
+
 .ih-item.circle.effect2 .img {
   z-index: 11;
   -webkit-transition: all 0.35s ease-in-out;
@@ -338,6 +342,8 @@
   -o-transform: rotate(120deg);
   transform: rotate(120deg);
 }
+
+/*EFECTO 3 - Boton Pagina - Home*/
 
 .ih-item.circle.effect3.colored .info {
   background: #79C9EC;
@@ -541,115 +547,6 @@
   -ms-transform: translateY(0);
   -o-transform: translateY(0);
   transform: translateY(0);
-}
-
-
-.ih-item.circle.effect4 {
-  -webkit-perspective: 900px;
-  -moz-perspective: 900px;
-  perspective: 900px;
-}
-.ih-item.circle.effect4 .img {
-  z-index: 11;
-  -webkit-transition: all 0.5s ease-in-out;
-  -moz-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out;
-}
-.ih-item.circle.effect4.colored .info .info-back {
-  background: #1a4a72;
-}
-.ih-item.circle.effect4 .info {
-  -webkit-transform-style: preserve-3d;
-  -moz-transform-style: preserve-3d;
-  -ms-transform-style: preserve-3d;
-  -o-transform-style: preserve-3d;
-  transform-style: preserve-3d;
-}
-.ih-item.circle.effect4 .info .info-back {
-  opacity: 1;
-  border-radius: 50%;
-  width: 100%;
-  height: 100%;
-  background: #79C9EC;
-}
-.ih-item.circle.effect4 .info h3 {
-  color: #fff;
-  text-transform: uppercase;
-  position: relative;
-  letter-spacing: 2px;
-  font-size: 22px;
-  margin: 0 30px;
-  padding: 45px 0 0 0;
-  height: 80px;
-  text-shadow: 0 0 1px white, 0 1px 2px rgba(0, 0, 0, 0.3);
-}
-.ih-item.circle.effect4 .info p {
-  color: #000;
-  padding: 10px 5px;
-  font-style: arial;
-  margin: 0 30px;
-  font-size: 15px;
-  border-top: 1px solid rgba(255, 255, 255, 0.5);
-}
-
-.ih-item.circle.effect4.bottom_to_top .img {
-  -webkit-transform-origin: 50% 0;
-  -moz-transform-origin: 50% 0;
-  -ms-transform-origin: 50% 0;
-  -o-transform-origin: 50% 0;
-  transform-origin: 50% 0;
-}
-.ih-item.circle.effect4.bottom_to_top a:hover .img {
-  -webkit-transform: rotate3d(1, 0, 0, 180deg);
-  -moz-transform: rotate3d(1, 0, 0, 180deg);
-  -ms-transform: rotate3d(1, 0, 0, 180deg);
-  -o-transform: rotate3d(1, 0, 0, 180deg);
-  transform: rotate3d(1, 0, 0, 180deg);
-}
-
-.ih-item.circle.effect4.top_to_bottom .img {
-  -webkit-transform-origin: 50% 100%;
-  -moz-transform-origin: 50% 100%;
-  -ms-transform-origin: 50% 100%;
-  -o-transform-origin: 50% 100%;
-  transform-origin: 50% 100%;
-}
-.ih-item.circle.effect4.top_to_bottom a:hover .img {
-  -webkit-transform: rotate3d(1, 0, 0, -180deg);
-  -moz-transform: rotate3d(1, 0, 0, -180deg);
-  -ms-transform: rotate3d(1, 0, 0, -180deg);
-  -o-transform: rotate3d(1, 0, 0, -180deg);
-  transform: rotate3d(1, 0, 0, -180deg);
-}
-
-.ih-item.circle.effect4.left_to_right .img {
-  -webkit-transform-origin: 100% 50%;
-  -moz-transform-origin: 100% 50%;
-  -ms-transform-origin: 100% 50%;
-  -o-transform-origin: 100% 50%;
-  transform-origin: 100% 50%;
-}
-.ih-item.circle.effect4.left_to_right a:hover .img {
-  -webkit-transform: rotate3d(0, 1, 0, 180deg);
-  -moz-transform: rotate3d(0, 1, 0, 180deg);
-  -ms-transform: rotate3d(0, 1, 0, 180deg);
-  -o-transform: rotate3d(0, 1, 0, 180deg);
-  transform: rotate3d(0, 1, 0, 180deg);
-}
-
-.ih-item.circle.effect4.right_to_left .img {
-  -webkit-transform-origin: 0% 50%;
-  -moz-transform-origin: 0% 50%;
-  -ms-transform-origin: 0% 50%;
-  -o-transform-origin: 0% 50%;
-  transform-origin: 0% 50%;
-}
-.ih-item.circle.effect4.right_to_left a:hover .img {
-  -webkit-transform: rotate3d(0, 1, 0, -180deg);
-  -moz-transform: rotate3d(0, 1, 0, -180deg);
-  -ms-transform: rotate3d(0, 1, 0, -180deg);
-  -o-transform: rotate3d(0, 1, 0, -180deg);
-  transform: rotate3d(0, 1, 0, -180deg);
 }
 
 /*EFECTO HOVER-circle - página Proyectos*/
