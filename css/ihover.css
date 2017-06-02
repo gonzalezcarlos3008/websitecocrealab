@@ -1,5 +1,8 @@
+
+/*EFECTO HOVER-circle - página Home*/
+
 #Hover{
-  background: #F5F5F9;
+  
   padding-bottom: 100px;
 }
 
@@ -34,6 +37,7 @@
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+
 }
 .ih-item a {
   color: #333;
@@ -66,10 +70,11 @@
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  box-shadow: inset 0 0 0 16px rgba(255, 255, 255, 0.6), 0 1px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0 0 0 0px rgba(255, 255, 255, 0.6), 0 1px 2px rgba(0, 0, 0, 0.3);
   -webkit-transition: all 0.35s ease-in-out;
   -moz-transition: all 0.35s ease-in-out;
   transition: all 0.35s ease-in-out;
+  box-shadow: 10px 10px 15px 0px #BFBDBD;
 }
 .ih-item.circle .img img {
   border-radius: 50%;
@@ -85,6 +90,8 @@
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
+
+/*EFECTO 1 - Boton Pagina - Home*/
 .ih-item.circle.effect1 .img {
   z-index: 11;
   -webkit-transition: all 0.35s ease-in-out;
@@ -242,6 +249,8 @@
   transform: translateY(0);
 }
 
+/*EFECTO 2 - Boton Pagina - Home*/
+
 .ih-item.circle.effect2 .img {
   z-index: 11;
   -webkit-transition: all 0.35s ease-in-out;
@@ -333,6 +342,8 @@
   -o-transform: rotate(120deg);
   transform: rotate(120deg);
 }
+
+/*EFECTO 3 - Boton Pagina - Home*/
 
 .ih-item.circle.effect3.colored .info {
   background: #79C9EC;
@@ -538,111 +549,158 @@
   transform: translateY(0);
 }
 
+/*EFECTO HOVER-circle - página Proyectos*/
 
-.ih-item.circle.effect4 {
-  -webkit-perspective: 900px;
-  -moz-perspective: 900px;
-  perspective: 900px;
+/*EFECTO Boton-proyecto_Gestión*/
+
+.ih-item.circle.effect17 .info {
+  opacity: 0;
+  -webkit-transform: scale(0);
+  -moz-transform: scale(0);
+  -ms-transform: scale(0);
+  -o-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
 }
-.ih-item.circle.effect4 .img {
-  z-index: 11;
-  -webkit-transition: all 0.5s ease-in-out;
-  -moz-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out;
-}
-.ih-item.circle.effect4.colored .info .info-back {
-  background: #1a4a72;
-}
-.ih-item.circle.effect4 .info {
-  -webkit-transform-style: preserve-3d;
-  -moz-transform-style: preserve-3d;
-  -ms-transform-style: preserve-3d;
-  -o-transform-style: preserve-3d;
-  transform-style: preserve-3d;
-}
-.ih-item.circle.effect4 .info .info-back {
-  opacity: 1;
-  border-radius: 50%;
-  width: 100%;
-  height: 100%;
-  background: #79C9EC;
-}
-.ih-item.circle.effect4 .info h3 {
+.ih-item.circle.effect17 .info h3 {
   color: #fff;
   text-transform: uppercase;
   position: relative;
   letter-spacing: 2px;
-  font-size: 22px;
+  font-size: 15px;
   margin: 0 30px;
-  padding: 45px 0 0 0;
-  height: 80px;
+  padding: 55px 0 0 0;
+  height: 110px;
   text-shadow: 0 0 1px white, 0 1px 2px rgba(0, 0, 0, 0.3);
 }
-.ih-item.circle.effect4 .info p {
-  color: #000;
-  padding: 10px 5px;
-  font-style: arial;
-  margin: 0 30px;
+.ih-item.circle.effect17 a:hover .img:before {
+  box-shadow: inset 0 0 0 110px #333333, inset 0 0 0 16px rgba(255, 255, 255, 0.8), 0 1px 2px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0 0 0 110px rgba(0, 0, 0, 0.6), inset 0 0 0 16px rgba(255, 255, 255, 0.8), 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+.ih-item.circle.effect17 a:hover .info {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+}
+
+/*EFECTO Boton-proyecto_Visualización*/
+
+.ih-item.circle.effect15 .img {
+  opacity: 1;
+  visibility: visible;
+  -webkit-transform: scale(1) rotate(0);
+  -moz-transform: scale(1) rotate(0);
+  -ms-transform: scale(1) rotate(0);
+  -o-transform: scale(1) rotate(0);
+  transform: scale(1) rotate(0);
+  -webkit-transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+}
+
+.ih-item.circle.effect15 .info {
+  background: #868484;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transform: scale(0.5) rotate(-720deg);
+  -moz-transform: scale(0.5) rotate(-720deg);
+  -ms-transform: scale(0.5) rotate(-720deg);
+  -o-transform: scale(0.5) rotate(-720deg);
+  transform: scale(0.5) rotate(-720deg);
+  -webkit-transition: all 0.35s ease-in-out 0.3s;
+  -moz-transition: all 0.35s ease-in-out 0.3s;
+  transition: all 0.35s ease-in-out 0.3s;
+}
+.ih-item.circle.effect15 .info h3 {
+  color: #fff;
+  text-transform: uppercase;
+  position: relative;
+  letter-spacing: 2px;
   font-size: 15px;
-  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  margin: 0 30px;
+  padding: 55px 0 0 0;
+  height: 110px;
+  text-shadow: 0 0 1px white, 0 1px 2px rgba(0, 0, 0, 0.3);
 }
 
-.ih-item.circle.effect4.bottom_to_top .img {
-  -webkit-transform-origin: 50% 0;
-  -moz-transform-origin: 50% 0;
-  -ms-transform-origin: 50% 0;
-  -o-transform-origin: 50% 0;
-  transform-origin: 50% 0;
+.ih-item.circle.effect15 a:hover .img {
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transform: scale(0.5) rotate(720deg);
+  -moz-transform: scale(0.5) rotate(720deg);
+  -ms-transform: scale(0.5) rotate(720deg);
+  -o-transform: scale(0.5) rotate(720deg);
+  transform: scale(0.5) rotate(720deg);
 }
-.ih-item.circle.effect4.bottom_to_top a:hover .img {
-  -webkit-transform: rotate3d(1, 0, 0, 180deg);
-  -moz-transform: rotate3d(1, 0, 0, 180deg);
-  -ms-transform: rotate3d(1, 0, 0, 180deg);
-  -o-transform: rotate3d(1, 0, 0, 180deg);
-  transform: rotate3d(1, 0, 0, 180deg);
-}
-
-.ih-item.circle.effect4.top_to_bottom .img {
-  -webkit-transform-origin: 50% 100%;
-  -moz-transform-origin: 50% 100%;
-  -ms-transform-origin: 50% 100%;
-  -o-transform-origin: 50% 100%;
-  transform-origin: 50% 100%;
-}
-.ih-item.circle.effect4.top_to_bottom a:hover .img {
-  -webkit-transform: rotate3d(1, 0, 0, -180deg);
-  -moz-transform: rotate3d(1, 0, 0, -180deg);
-  -ms-transform: rotate3d(1, 0, 0, -180deg);
-  -o-transform: rotate3d(1, 0, 0, -180deg);
-  transform: rotate3d(1, 0, 0, -180deg);
+.ih-item.circle.effect15 a:hover .info {
+  opacity: 1;
+  visibility: visible;
+  -webkit-transform: scale(1) rotate(0);
+  -moz-transform: scale(1) rotate(0);
+  -ms-transform: scale(1) rotate(0);
+  -o-transform: scale(1) rotate(0);
+  transform: scale(1) rotate(0);
 }
 
-.ih-item.circle.effect4.left_to_right .img {
-  -webkit-transform-origin: 100% 50%;
-  -moz-transform-origin: 100% 50%;
-  -ms-transform-origin: 100% 50%;
-  -o-transform-origin: 100% 50%;
-  transform-origin: 100% 50%;
-}
-.ih-item.circle.effect4.left_to_right a:hover .img {
-  -webkit-transform: rotate3d(0, 1, 0, 180deg);
-  -moz-transform: rotate3d(0, 1, 0, 180deg);
-  -ms-transform: rotate3d(0, 1, 0, 180deg);
-  -o-transform: rotate3d(0, 1, 0, 180deg);
-  transform: rotate3d(0, 1, 0, 180deg);
+/*EFECTO Boton-proyecto_Otros*/
+
+.ih-item.circle.effect6 .img {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
 }
 
-.ih-item.circle.effect4.right_to_left .img {
-  -webkit-transform-origin: 0% 50%;
-  -moz-transform-origin: 0% 50%;
-  -ms-transform-origin: 0% 50%;
-  -o-transform-origin: 0% 50%;
-  transform-origin: 0% 50%;
+.ih-item.circle.effect6 .info {
+  background: #868484;
+  opacity: 0;
+  -webkit-transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
 }
-.ih-item.circle.effect4.right_to_left a:hover .img {
-  -webkit-transform: rotate3d(0, 1, 0, -180deg);
-  -moz-transform: rotate3d(0, 1, 0, -180deg);
-  -ms-transform: rotate3d(0, 1, 0, -180deg);
-  -o-transform: rotate3d(0, 1, 0, -180deg);
-  transform: rotate3d(0, 1, 0, -180deg);
+.ih-item.circle.effect6 .info h3 {
+  color: #fff;
+  text-transform: uppercase;
+  position: relative;
+  letter-spacing: 2px;
+  font-size: 15px;
+  margin: 0 30px;
+  padding: 55px 0 0 0;
+  height: 110px;
+  text-shadow: 0 0 1px white, 0 1px 2px rgba(0, 0, 0, 0.3);
 }
+
+.ih-item.circle.effect6.scale_up .info {
+  -webkit-transform: scale(0.5);
+  -moz-transform: scale(0.5);
+  -ms-transform: scale(0.5);
+  -o-transform: scale(0.5);
+  transform: scale(0.5);
+}
+.ih-item.circle.effect6.scale_up a:hover .img {
+  opacity: 0;
+  -webkit-transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  -o-transform: scale(1.5);
+  transform: scale(1.5);
+}
+.ih-item.circle.effect6.scale_up a:hover .info {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+}
+
