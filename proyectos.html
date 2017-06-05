@@ -15,6 +15,7 @@
     <link href="css/prettyPhoto.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
     <link href="css/responsive.css" rel="stylesheet">
+    <link href="css/ihover.css" rel="stylesheet">
     <!--[if lt IE 9]>
     <script src="js/html5shiv.js"></script>
     <script src="js/respond.min.js"></script>
@@ -59,49 +60,799 @@
     <section id="portfolio">
         <div class="container">
             <div class="section-header">
-                <h2></h2>
                 <h2 class="section-title text-center wow fadeInDown">Proyectos</h2>
             </div>
 
             <div class="text-center">
                 <ul class="portfolio-filter">
-                    <li><a class="active" href="#" data-filter="*">Todos</a></li>
-                    <li><a href="#" data-filter=".corporate">Gestión</a></li>
-                    <li><a href="#" data-filter=".creative">Visualización</a></li>
+                    <li><a class="active" href="#" data-filter="*">Todos <span class="badge">20</span></a></li>
+                    <li><a href="#" data-filter=".corporate">Gestión <span class="badge">6</span></a></li>
+                    <li><a href="#" data-filter=".creative">Visualización <span class="badge">8</span></a></li>
+                    <li><a href="#" data-filter=".other">Otros <span class="badge">6</span></a></li>
                 </ul><!--/#portfolio-filter-->
             </div>
 
-            <div class="portfolio-items">
-                <div class="portfolio-item corporate portfolio">
-                    <div class="portfolio-item-inner">
-                        <img class="img-responsive" src="images/portfolio/01.jpg" alt="">
-                        <div class="portfolio-info">
-                            <h3>Plataforma CocreaLab</h3>
-                            Permite gestionar la información de miembros y proyectos de CocreaLab
-                        </div>
-                    </div>
-                </div><!--/.portfolio-item-->
+            <div class="col-md-12">
+                <div class="portfolio-items">
 
-                <div class="portfolio-item creative portfolio">
-                    <div class="portfolio-item-inner">
-                        <img class="img-responsive" src="images/portfolio/02.jpg" alt="">
-                        <div class="portfolio-info">
-                            <h3>Visualización Entidades Públicas</h3>
-                            Permite visualizar la información y ubicación de las entidades públicas
-                        </div>
-                    </div>
-                </div><!--/.portfolio-item-->
-                
-                <div class="portfolio-item creative portfolio">
-                    <div class="portfolio-item-inner">
-                        <img class="img-responsive" src="images/portfolio/03.jpg" alt="">
-                        <div class="portfolio-info">
-                            <h3>Visualización Ruta Excelencia</h3>
-                            Permite visualizar la información de los trámites de la ruta de la excelencia
-                        </div>
-                    </div>
-                </div><!--/.portfolio-item-->
-                
+                    <!--/.ITEM 1-->
+                    <div>
+                        <div class="portfolio-item ih-item circle effect17 corporate">
+                            <a>
+                                <div class="img img-responsive"><img class="img-responsive" src="images/hover/01.jpg" alt=""></div>
+                                <div class="info"> 
+                                    <h3>PLATAFORMA COCREALAB</h3>
+                                    <div href="#proyecto1" class="btn btn-primary btn-lg" data-toggle="modal">Ver más</div> 
+                                </div>
+                            </a>
+                        </div> 
+
+                        <!--EFECTO MODALS-ITEM 1-->
+                        <div class="modal fade" id="proyecto1">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+
+                                    <!--HEADER DE LA VENTANA-->
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                        <h4 class="modal-title">PLATAFORMA COCREALAB</h4>
+                                    </div>
+
+                                    <!--CONTENIDO DE LA VENTANA-->
+                                    <div class="modal-body text-justify" style="color: #000;">
+                                        <p>Permite gestionar la información de miembros y proyectos de CocreaLab</p>
+                                    </div>
+
+                                    <!--FOOTER DE LA VENTANA-->
+                                    <div class="modal-footer">
+                                        <a href="#" class="btn btn-success">Ver proyecto</a>
+                                        <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!--FIN EFECTO MODALS-ITEM 1-->
+                    </div><!--/.FIN ITEM 1-->
+
+                    <!--/.ITEM 2-->
+                    <div>
+                        <div class="portfolio-item ih-item circle effect15 left_to_right creative">
+                            <a>
+                                <div class="img img-responsive"><img class="img-responsive" src="images/hover/02.jpg" alt=""></div>
+                                <div class="info">
+                                  <h3>VISUALIZACIÓN ENTIDADES PÚBLICAS</h3>
+                                  <div href="#proyecto2" class="btn btn-primary btn-lg" data-toggle="modal">Ver más</div>
+                                </div>
+                            </a>
+                        </div> 
+
+                        <!--EFECTO MODALS-ITEM 2-->
+                        <div class="modal fade" id="proyecto2">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+
+                                    <!--HEADER DE LA VENTANA-->
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                        <h4 class="modal-title">VISUALIZACIÓN ENTIDADES PÚBLICAS</h4>
+                                    </div>
+
+                                    <!--CONTENIDO DE LA VENTANA-->
+                                    <div class="modal-body text-justify" style="color: #000;">
+                                        <p>Permite visualizar la información y ubicación de las entidades públicas</p>
+                                    </div>
+
+                                    <!--FOOTER DE LA VENTANA-->
+                                    <div class="modal-footer">
+                                        <a href="#" class="btn btn-success">Ver proyecto</a>
+                                        <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!--FIN EFECTO MODALS-ITEM 2-->
+                    </div><!--/FIN ITEM 2-->
+
+                    <!--/.ITEM 3--> 
+                    <div>                  
+                        <div class="portfolio-item ih-item circle effect15 left_to_right creative">
+                            <a>
+                                <div class="img img-responsive"><img class="img-responsive" src="images/hover/03.jpg" alt=""></div>
+                                <div class="info">
+                                  <h3>VISUALIZACIÓN RUTA EXCELENCIA</h3>
+                                  <div href="#proyecto3" class="btn btn-primary btn-lg" data-toggle="modal">Ver más</div>
+                                </div>
+                            </a>
+                        </div>  
+
+                        <!--EFECTO MODASL - ITEM 3-->
+                        <div class="modal fade" id="proyecto3">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+
+                                    <!--HEADER DE LA VENTANA-->
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                        <h4 class="modal-title">VISUALIZACIÓN RUTA EXCELENCIA</h4>
+                                    </div>
+
+                                    <!--CONTENIDO DE LA VENTANA-->
+                                    <div class="modal-body text-justify" style="color: #000;">
+                                        <p>Permite visualizar la información de los trámites de la ruta de la excelencia</p>
+                                    </div>
+
+                                    <!--FOOTER DE LA VENTANA-->
+                                    <div class="modal-footer">
+                                        <a href="#" class="btn btn-success">Ver proyecto</a>
+                                        <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!--FIN EFECTO MODALS - ITEM 3-->
+                    </div><!--/.FIN ITEM 3-->
+
+                    <!--/.ITEM 4-->
+                    <div>
+                        <div class="portfolio-item ih-item circle effect6 scale_up other">
+                            <a>
+                                <div class="img img-responsive"><img class="img-responsive" src="images/hover/04.jpg" alt=""></div>
+                                <div class="mask1"></div>
+                                <div class="mask2"></div>
+                                <div class="info">
+                                  <h3>NOMBRE DEL PROYECTO</h3>
+                                  <div href="#proyecto4" class="btn btn-primary btn-lg" data-toggle="modal">Ver más</div>
+                                </div>
+                            </a>
+                        </div>  
+
+                        <!--EFECTO MODALS - ITEM 4-->
+                        <div class="modal fade" id="proyecto4">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+
+                                    <!--HEADER DE LA VENTANA-->
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                        <h4 class="modal-title">NOMBRE DEL PROYECTO</h4>
+                                    </div>
+
+                                    <!--CONTENIDO DE LA VENTANA-->
+                                    <div class="modal-body text-justify" style="color: #000;">
+                                        <p>Descripción del proyecto</p>
+                                    </div>
+
+                                    <!--FOOTER DE LA VENTANA-->
+                                    <div class="modal-footer">
+                                        <a href="#" class="btn btn-success">Ver proyecto</a>
+                                        <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!--FIN EFECTO MODALS - ITEM 4-->
+                    </div><!--/.FIN ITEM 4-->
+
+                    <!--/.ITEM 5-->
+                    <div>
+                        <div class="portfolio-item ih-item circle effect15 left_to_right creative">
+                            <a>
+                                <div class="img img-responsive"><img class="img-responsive" src="images/hover/05.jpg" alt=""></div>
+                                <div class="mask1"></div>
+                                <div class="mask2"></div>
+                                <div class="info">
+                                  <h3>NOMBRE DEL PROYECTO</h3>
+                                  <div href="#proyecto5" class="btn btn-primary btn-lg" data-toggle="modal">Ver más</div>
+                                </div>
+                            </a>
+                        </div>  
+                        <!--EFECTO MODALS- ITEM 5-->
+                        <div class="modal fade" id="proyecto5">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+
+                                    <!--HEADER DE LA VENTANA-->
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                        <h4 class="modal-title">NOMBRE DEL PROYECTO</h4>
+                                    </div>
+
+                                    <!--CONTENIDO DE LA VENTANA-->
+                                    <div class="modal-body text-justify" style="color: #000;">
+                                        <p>Descripción del proyecto</p>
+                                    </div>
+
+                                    <!--FOOTER DE LA VENTANA-->
+                                    <div class="modal-footer">
+                                        <a href="#" class="btn btn-success">Ver proyecto</a>
+                                        <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!--FIN EFECTO MODALS - ITEM 5-->
+                    </div><!--/.FIN ITEM 5-->
+
+                    <!--/.ITEM 6-->
+                    <div>
+                        <div class="portfolio-item ih-item circle effect17 corporate">
+                            <a>
+                                <div class="img img-responsive"><img class="img-responsive" src="images/hover/06.jpg" alt=""></div>
+                                <div class="mask1"></div>
+                                <div class="mask2"></div>
+                                <div class="info">
+                                  <h3>NOMBRE DEL PROYECTO</h3>
+                                  <div href="#proyecto6" class="btn btn-primary btn-lg" data-toggle="modal">Ver más</div>
+                                </div>
+                            </a>
+                        </div>  
+                        <!--EFECTO MODALS - ITEM 6-->
+                        <div class="modal fade" id="proyecto6">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+
+                                    <!--HEADER DE LA VENTANA-->
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                        <h4 class="modal-title">NOMBRE DEL PROYECTO</h4>
+                                    </div>
+
+                                    <!--CONTENIDO DE LA VENTANA-->
+                                    <div class="modal-body text-justify" style="color: #000;">
+                                        <p>Descripción del proyecto</p>
+                                    </div>
+
+                                    <!--FOOTER DE LA VENTANA-->
+                                    <div class="modal-footer">
+                                        <a href="#" class="btn btn-success">Ver proyecto</a>
+                                        <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!--FIN EFECTO MODALS - ITEM 6-->
+                    </div><!--/.FIN ITEM 6-->
+
+                    <!--/.ITEM 7-->
+                    <div>
+                        <div class="portfolio-item ih-item circle effect6 scale_up other">
+                            <a>
+                                <div class="img img-responsive"><img class="img-responsive" src="images/hover/07.jpeg" alt=""></div>
+                                <div class="mask1"></div>
+                                <div class="mask2"></div>
+                                <div class="info">
+                                  <h3>NOMBRE DEL PROYECTO</h3>
+                                  <div href="#proyecto7" class="btn btn-primary btn-lg" data-toggle="modal">Ver más</div>
+                                </div>
+                            </a>
+                        </div>  
+                        <!--EFECTO MODALS ITEM 7-->
+                        <div class="modal fade" id="proyecto7">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+
+                                    <!--HEADER DE LA VENTANA-->
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                        <h4 class="modal-title">NOMBRE DEL PROYECTO</h4>
+                                    </div>
+
+                                    <!--CONTENIDO DE LA VENTANA-->
+                                    <div class="modal-body text-justify" style="color: #000;">
+                                        <p>Descripción del proyecto</p>
+                                    </div>
+
+                                    <!--FOOTER DE LA VENTANA-->
+                                    <div class="modal-footer">
+                                        <a href="#" class="btn btn-success">Ver proyecto</a>
+                                        <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!--FIN EFECTO MODALS - ITEM 7-->
+                    </div><!--/.FIN EFECTO ITEM 7-->
+
+                    <!--/.ITEM 8-->
+                    <div>
+                        <div class="portfolio-item ih-item circle effect15 left_to_right creative">
+                            <a>
+                                <div class="img img-responsive"><img class="img-responsive" src="images/hover/08.jpg" alt=""></div>
+                                <div class="mask1"></div>
+                                <div class="mask2"></div>
+                                <div class="info">
+                                  <h3>NOMBRE DEL PROYECTO</h3>
+                                  <div href="#proyecto8" class="btn btn-primary btn-lg" data-toggle="modal">Ver más</div>
+                                </div>
+                            </a>
+                        </div>  
+                        <!--EFECTO MODALS - ITEM 8-->
+                        <div class="modal fade" id="proyecto8">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+
+                                    <!--HEADER DE LA VENTANA-->
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                        <h4 class="modal-title">NOMBRE DEL PROYECTO</h4>
+                                    </div>
+
+                                    <!--CONTENIDO DE LA VENTANA-->
+                                    <div class="modal-body text-justify" style="color: #000;">
+                                        <p>Descripción del proyecto</p>
+                                    </div>
+
+                                    <!--FOOTER DE LA VENTANA-->
+                                    <div class="modal-footer">
+                                        <a href="#" class="btn btn-success">Ver proyecto</a>
+                                        <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!--FIN EFECTO MODALS - ITEM 8-->
+                    </div><!--/.FIN EFECTO ITEM 8-->
+
+                    <!--/.ITEM 9-->
+                    <div>
+                        <div class="portfolio-item ih-item circle effect17 corporate">
+                            <a>
+                                <div class="img img-responsive"><img class="img-responsive" src="images/hover/09.jpg" alt=""></div>
+                                <div class="mask1"></div>
+                                <div class="mask2"></div>
+                                <div class="info">
+                                  <h3>NOMBRE DEL PROYECTO</h3>
+                                  <div href="#proyecto9" class="btn btn-primary btn-lg" data-toggle="modal">Ver más</div>
+                                </div>
+                            </a>
+                        </div>  
+                        <!--EFECTO MODALS - ITEM 9-->
+                        <div class="modal fade" id="proyecto9">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+
+                                    <!--HEADER DE LA VENTANA-->
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                        <h4 class="modal-title">NOMBRE DEL PROYECTO</h4>
+                                    </div>
+
+                                    <!--CONTENIDO DE LA VENTANA-->
+                                    <div class="modal-body text-justify" style="color: #000;">
+                                        <p>Descripción del proyecto</p>
+                                    </div>
+
+                                    <!--FOOTER DE LA VENTANA-->
+                                    <div class="modal-footer">
+                                        <a href="#" class="btn btn-success">Ver proyecto</a>
+                                        <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!--FIN EFECTO MODALS - ITEM 9-->
+                    </div><!--/.FIN ITEM 9-->
+
+                    <!--/.ITEM 10-->
+                    <div>
+                        <div class="portfolio-item ih-item circle effect6 scale_up other">
+                            <a>
+                                <div class="img img-responsive"><img class="img-responsive" src="images/hover/10.jpg" alt=""></div>
+                                <div class="mask1"></div>
+                                <div class="mask2"></div>
+                                <div class="info">
+                                  <h3>NOMBRE DEL PROYECTO</h3>
+                                  <div href="#proyecto10" class="btn btn-primary btn-lg" data-toggle="modal">Ver más</div>
+                                </div>
+                            </a>
+                        </div>  
+                        <!--EFECTO MODALS - ITEM 10-->
+                        <div class="modal fade" id="proyecto10">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+
+                                    <!--HEADER DE LA VENTANA-->
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                        <h4 class="modal-title">NOMBRE DEL PROYECTO</h4>
+                                    </div>
+
+                                    <!--CONTENIDO DE LA VENTANA-->
+                                    <div class="modal-body text-justify" style="color: #000;">
+                                        <p>Descripción del proyecto</p>
+                                    </div>
+
+                                    <!--FOOTER DE LA VENTANA-->
+                                    <div class="modal-footer">
+                                        <a href="#" class="btn btn-success">Ver proyecto</a>
+                                        <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!--FIN EFECTO MODALS - ITEM 10-->
+                    </div><!--/.FIN ITEM 10-->
+
+                    <!--/.ITEM 11-->
+                    <div>
+                        <div class="portfolio-item ih-item circle effect15 left_to_right creative">
+                            <a>
+                                <div class="img img-responsive"><img class="img-responsive" src="images/hover/11.jpg" alt=""></div>
+                                <div class="mask1"></div>
+                                <div class="mask2"></div>
+                                <div class="info">
+                                  <h3>NOMBRE DEL PROYECTO</h3>
+                                  <div href="#proyecto11" class="btn btn-primary btn-lg" data-toggle="modal">Ver más</div>
+                                </div>
+                            </a>
+                        </div>  
+                        <!--EFECTO MODALS - ITEM 11-->
+                        <div class="modal fade" id="proyecto11">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+
+                                    <!--HEADER DE LA VENTANA-->
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                        <h4 class="modal-title">NOMBRE DEL PROYECTO</h4>
+                                    </div>
+
+                                    <!--CONTENIDO DE LA VENTANA-->
+                                    <div class="modal-body text-justify" style="color: #000;">
+                                        <p>Descripción del proyecto</p>
+                                    </div>
+
+                                    <!--FOOTER DE LA VENTANA-->
+                                    <div class="modal-footer">
+                                        <a href="#" class="btn btn-success">Ver proyecto</a>
+                                        <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!--FIN EFECTO MODALS - ITEM 11-->
+                    </div><!--/.FIN ITEM 11-->
+
+                    <!--/.ITEM 12-->
+                    <div>
+                        <div class="portfolio-item ih-item circle effect6 scale_up other">
+                            <a>
+                                <div class="img img-responsive"><img class="img-responsive" src="images/hover/12.jpg" alt=""></div>
+                                <div class="mask1"></div>
+                                <div class="mask2"></div>
+                                <div class="info">
+                                  <h3>NOMBRE DEL PROYECTO</h3>
+                                  <div href="#proyecto12" class="btn btn-primary btn-lg" data-toggle="modal">Ver más</div>
+                                </div>
+                            </a>
+                        </div>  
+                        <!--EFECTO MODALS - ITEM 12-->
+                        <div class="modal fade" id="proyecto12">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+
+                                    <!--HEADER DE LA VENTANA-->
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                        <h4 class="modal-title">NOMBRE DEL PROYECTO</h4>
+                                    </div>
+
+                                    <!--CONTENIDO DE LA VENTANA-->
+                                    <div class="modal-body text-justify" style="color: #000;">
+                                        <p>Descripción del proyecto</p>
+                                    </div>
+
+                                    <!--FOOTER DE LA VENTANA-->
+                                    <div class="modal-footer">
+                                        <a href="#" class="btn btn-success">Ver proyecto</a>
+                                        <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!--FIN EFECTO MODALS - ITEM 12-->
+                    </div><!--/.FIN ITEM 12-->
+
+                    <!--/.ITEM 13-->
+                    <div>
+                        <div class="portfolio-item ih-item circle effect17 corporate">
+                            <a>
+                                <div class="img img-responsive"><img class="img-responsive" src="images/hover/13.jpg" alt=""></div>
+                                <div class="mask1"></div>
+                                <div class="mask2"></div>
+                                <div class="info">
+                                  <h3>NOMBRE DEL PROYECTO</h3>
+                                  <div href="#proyecto13" class="btn btn-primary btn-lg" data-toggle="modal">Ver más</div>
+                                </div>
+                            </a>
+                        </div>  
+                        <!--EFECTO MODALS - ITEM 13-->
+                        <div class="modal fade" id="proyecto13">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+
+                                    <!--HEADER DE LA VENTANA-->
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                        <h4 class="modal-title">NOMBRE DEL PROYECTO</h4>
+                                    </div>
+
+                                    <!--CONTENIDO DE LA VENTANA-->
+                                    <div class="modal-body text-justify" style="color: #000;">
+                                        <p>Descripción del proyecto</p>
+                                    </div>
+
+                                    <!--FOOTER DE LA VENTANA-->
+                                    <div class="modal-footer">
+                                        <a href="#" class="btn btn-success">Ver proyecto</a>
+                                        <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!--FIN EFECTO MODALS - ITEM 13-->
+                    </div><!--/.FIN ITEM 13-->
+
+                    <!--/.ITEM 14-->
+                    <div>
+                        <div class="portfolio-item ih-item circle effect15 left_to_right creative">
+                            <a>
+                                <div class="img img-responsive"><img class="img-responsive" src="images/hover/14.jpg" alt=""></div>
+                                <div class="mask1"></div>
+                                <div class="mask2"></div>
+                                <div class="info">
+                                  <h3>NOMBRE DEL PROYECTO</h3>
+                                  <div href="#proyecto14" class="btn btn-primary btn-lg" data-toggle="modal">Ver más</div>
+                                </div>
+                            </a>
+                        </div>  
+                        <!--EFECTO MODALS - ITEM 14-->
+                        <div class="modal fade" id="proyecto14">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+
+                                    <!--HEADER DE LA VENTANA-->
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                        <h4 class="modal-title">NOMBRE DEL PROYECTO</h4>
+                                    </div>
+
+                                    <!--CONTENIDO DE LA VENTANA-->
+                                    <div class="modal-body text-justify" style="color: #000;">
+                                        <p>Descripción del proyecto</p>
+                                    </div>
+
+                                    <!--FOOTER DE LA VENTANA-->
+                                    <div class="modal-footer">
+                                        <a href="#" class="btn btn-success">Ver proyecto</a>
+                                        <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!--FIN EFECTO MODALS - ITEM 14-->
+                    </div><!--/.ITEM 14-->
+
+                    <!--/.ITEM 15-->
+                    <div>
+                        <div class="portfolio-item ih-item circle effect17 corporate">
+                            <a>
+                                <div class="img img-responsive"><img class="img-responsive" src="images/hover/15.jpg" alt=""></div>
+                                <div class="mask1"></div>
+                                <div class="mask2"></div>
+                                <div class="info">
+                                  <h3>NOMBRE DEL PROYECTO</h3>
+                                  <div href="#proyecto15" class="btn btn-primary btn-lg" data-toggle="modal">Ver más</div>
+                                </div>
+                            </a>
+                        </div>  
+                        <!--EFECTO MODALS - ITEM 15-->
+                        <div class="modal fade" id="proyecto15">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+
+                                    <!--HEADER DE LA VENTANA-->
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                        <h4 class="modal-title">NOMBRE DEL PROYECTO</h4>
+                                    </div>
+
+                                    <!--CONTENIDO DE LA VENTANA-->
+                                    <div class="modal-body text-justify" style="color: #000;">
+                                        <p>Descripción del proyecto</p>
+                                    </div>
+
+                                    <!--FOOTER DE LA VENTANA-->
+                                    <div class="modal-footer">
+                                        <a href="#" class="btn btn-success">Ver proyecto</a>
+                                        <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!--FIN EFECTO MODALS - ITEM 15-->
+                    </div><!--/.FIN ITEM 15-->
+
+                    <!--/.ITEM 16-->
+                    <div>
+                        <div class="portfolio-item ih-item circle effect17 corporate">
+                            <a>
+                                <div class="img img-responsive"><img class="img-responsive" src="images/hover/16.jpg" alt=""></div>
+                                <div class="mask1"></div>
+                                <div class="mask2"></div>
+                                <div class="info">
+                                  <h3>NOMBRE DEL PROYECTO</h3>
+                                  <div href="#proyecto16" class="btn btn-primary btn-lg" data-toggle="modal">Ver más</div>
+                                </div>
+                            </a>
+                        </div>  
+                        <!--EFECTO MODALS - ITEM 16-->
+                        <div class="modal fade" id="proyecto16">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+
+                                    <!--HEADER DE LA VENTANA-->
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                        <h4 class="modal-title">NOMBRE DEL PROYECTO</h4>
+                                    </div>
+
+                                    <!--CONTENIDO DE LA VENTANA-->
+                                    <div class="modal-body text-justify" style="color: #000;">
+                                        <p>Descripción del proyecto</p>
+                                    </div>
+
+                                    <!--FOOTER DE LA VENTANA-->
+                                    <div class="modal-footer">
+                                        <a href="#" class="btn btn-success">Ver proyecto</a>
+                                        <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!--FIN EFECTO MODALS - ITEM 16-->
+                    </div><!--/.FIN ITEM 16-->
+
+                    <!--/.ITEM 17-->
+                    <div>
+                        <div class="portfolio-item ih-item circle effect6 scale_up other">
+                            <a>
+                                <div class="img img-responsive"><img class="img-responsive" src="images/hover/17.jpg" alt=""></div>
+                                <div class="mask1"></div>
+                                <div class="mask2"></div>
+                                <div class="info">
+                                  <h3>NOMBRE DEL PROYECTO</h3>
+                                  <div href="#proyecto17" class="btn btn-primary btn-lg" data-toggle="modal">Ver más</div>
+                                </div>
+                            </a>
+                        </div>  
+                        <!--EFECTO MODALS - ITEM 17-->
+                        <div class="modal fade" id="proyecto17">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+
+                                    <!--HEADER DE LA VENTANA-->
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                        <h4 class="modal-title">NOMBRE DEL PROYECTO</h4>
+                                    </div>
+
+                                    <!--CONTENIDO DE LA VENTANA-->
+                                    <div class="modal-body text-justify" style="color: #000;">
+                                        <p>Descripción del proyecto</p>
+                                    </div>
+
+                                    <!--FOOTER DE LA VENTANA-->
+                                    <div class="modal-footer">
+                                        <a href="#" class="btn btn-success">Ver proyecto</a>
+                                        <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!--FIN EFECTO MODALS - ITEM 17-->
+                    </div><!--/.FIN ITEM 17-->
+
+                    <!--/.ITEM 18-->
+                    <div>
+                        <div class="portfolio-item ih-item circle effect6 scale_up other">
+                            <a>
+                                <div class="img img-responsive"><img class="img-responsive" src="images/hover/18.jpg" alt=""></div>
+                                <div class="mask1"></div>
+                                <div class="mask2"></div>
+                                <div class="info">
+                                  <h3>NOMBRE DEL PROYECTO</h3>
+                                  <div href="#proyecto18" class="btn btn-primary btn-lg" data-toggle="modal">Ver más</div>
+                                </div>
+                            </a>
+                        </div>  
+                        <!--EFECTO MODALS - ITEM 18-->
+                        <div class="modal fade" id="proyecto18">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+
+                                    <!--HEADER DE LA VENTANA-->
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                        <h4 class="modal-title">NOMBRE DEL PROYECTO</h4>
+                                    </div>
+
+                                    <!--CONTENIDO DE LA VENTANA-->
+                                    <div class="modal-body text-justify" style="color: #000;">
+                                        <p>Descripción del proyecto</p>
+                                    </div>
+
+                                    <!--FOOTER DE LA VENTANA-->
+                                    <div class="modal-footer">
+                                        <a href="#" class="btn btn-success">Ver proyecto</a>
+                                        <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!--FIN EFECTO MODALS - ITEM 18-->
+                    </div><!--/.FIN ITEM 18-->
+
+                    <!--/.ITEM 19-->
+                    <div>
+                        <div class="portfolio-item ih-item circle effect15 left_to_right creative">
+                            <a>
+                                <div class="img img-responsive"><img class="img-responsive" src="images/hover/19.jpg" alt=""></div>
+                                <div class="mask1"></div>
+                                <div class="mask2"></div>
+                                <div class="info">
+                                  <h3>NOMBRE DEL PROYECTO</h3>
+                                  <div href="#proyecto19" class="btn btn-primary btn-lg" data-toggle="modal">Ver más</div>
+                                </div>
+                            </a>
+                        </div>  
+                        <!--EFECTO MODALS - ITEM 19-->
+                        <div class="modal fade" id="proyecto19">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+
+                                    <!--HEADER DE LA VENTANA-->
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                        <h4 class="modal-title">NOMBRE DEL PROYECTO</h4>
+                                    </div>
+
+                                    <!--CONTENIDO DE LA VENTANA-->
+                                    <div class="modal-body text-justify" style="color: #000;">
+                                        <p>Descripción del proyecto</p>
+                                    </div>
+
+                                    <!--FOOTER DE LA VENTANA-->
+                                    <div class="modal-footer">
+                                        <a href="#" class="btn btn-success">Ver proyecto</a>
+                                        <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!--FIN EFECTO MODALS - ITEM 19-->
+                    </div><!--/.FIN ITEM 19-->
+
+                    <!--/.ITEM 20-->
+                    <div>
+                        <div class="portfolio-item ih-item circle effect15 left_to_right creative">
+                            <a>
+                                <div class="img img-responsive"><img class="img-responsive" src="images/hover/20.jpg" alt=""></div>
+                                <div class="mask1"></div>
+                                <div class="mask2"></div>
+                                <div class="info">
+                                  <h3>NOMBRE DEL PROYECTO</h3>
+                                  <div href="#proyecto20" class="btn btn-primary btn-lg" data-toggle="modal">Ver más</div>
+                                </div>
+                            </a>
+                        </div>  
+                        <!--EFECTO MODALS - ITEM 20-->
+                        <div class="modal fade" id="proyecto20">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+
+                                    <!--HEADER DE LA VENTANA-->
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                        <h4 class="modal-title">NOMBRE DEL PROYECTO</h4>
+                                    </div>
+
+                                    <!--CONTENIDO DE LA VENTANA-->
+                                    <div class="modal-body text-justify" style="color: #000;">
+                                        <p>Descripción del proyecto</p>
+                                    </div>
+
+                                    <!--FOOTER DE LA VENTANA-->
+                                    <div class="modal-footer">
+                                        <a href="#" class="btn btn-success">Ver proyecto</a>
+                                        <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!--FIN EFECTO MODALS - ITEM 20-->
+                    </div><!--/.FIN ITEM 20-->
+                </div>
             </div>
         </div><!--/.container-->
     </section><!--/#portfolio-->

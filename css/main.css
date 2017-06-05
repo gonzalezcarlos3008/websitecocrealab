@@ -368,6 +368,9 @@ ul.nostyle i {
   box-shadow: inset 0 0 0 5px rgba(255, 255, 255, 0.8);
   -webkit-box-shadow: inset 0 0 0 5px rgba(255, 255, 255, 0.8);
 }
+
+/*EFECTOS PESTAÑAS "página Proyectos*/
+
 #portfolio {
   padding: 100px 0;
   background: #f5f5f5;
@@ -416,55 +419,36 @@ ul.nostyle i {
   margin: -15px;
 }
 #portfolio .portfolio-item {
-  width: 24.9%;
+  width: 33%;
   float: left;
-  padding: 15px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   -o-box-sizing: border-box;
   -ms-box-sizing: border-box;
   box-sizing: border-box;
-}
-#portfolio .portfolio-item .portfolio-item-inner {
   position: relative;
+  width: 224px;
+  margin:26px;
 }
-#portfolio .portfolio-item .portfolio-item-inner .portfolio-info {
-  opacity: 0;
-  transition: opacity 400ms;
-  -webkit-transition: opacity 400ms;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  padding: 10px;
-  background: rgba(0, 0, 0, 0.5);
+
+/*EFECTO MODALS "página Proyectos*/
+
+#portfolio h4{
   color: #fff;
 }
-#portfolio .portfolio-item .portfolio-item-inner .portfolio-info h3 {
-  font-size: 16px;
-  line-height: 1;
-  margin: 0;
-  color: #fff;
+#portfolio .modal-header{
+  background: #55B0D3;
 }
-#portfolio .portfolio-item .portfolio-item-inner .portfolio-info .preview {
-  position: absolute;
-  top: -18px;
-  right: 12px;
-  border-radius: 50%;
-  background-image: -moz-linear-gradient(90deg, #2caab3 0%, #2c8cb3 100%);
-  background-image: -webkit-linear-gradient(90deg, #2caab3 0%, #2c8cb3 100%);
-  background-image: -ms-linear-gradient(90deg, #2caab3 0%, #2c8cb3 100%);
-  width: 36px;
-  height: 36px;
-  line-height: 36px;
-  text-align: center;
-  color: #fff;
-  box-shadow: 0 0 0 2px #fff;
-  -webkit-box-shadow: 0 0 0 2px #fff;
+#portfolio .modal-body{
+  background: #EAEBEB;
+  font-style: italic;
 }
-#portfolio .portfolio-item:hover .portfolio-info {
-  opacity: 1;
+#portfolio .modal-footer{
+  background: #F6F7F7;
 }
+
+
+
 /* Start: Recommended Isotope styles */
 /**** Isotope Filtering ****/
 .isotope-item {
@@ -507,6 +491,15 @@ ul.nostyle i {
   -o-transition-duration: 0s;
   transition-duration: 0s;
 }
+/*Efectos Pagina Proyectos*/
+.enlace1{
+  background: #D9E3F7;
+  box-shadow: 6px 6px 11px 0px #BFBDBD; 
+}
+.enlace2{
+  background: #D9F7DC;
+  box-shadow: 6px 6px 11px 0px #BFBDBD;
+}
 /* End: Recommended Isotope styles */
 /* disable CSS transitions for containers with infinite scrolling*/
 .isotope.infinite-scrolling {
@@ -537,6 +530,7 @@ ul.nostyle i {
 #about {
   padding: 100px 0 30px 0;
 }
+
 #work-process {
   padding: 100px 0 50px;
   background: #20222e url(../images/work-process/bg.jpg) no-repeat 0 0;
