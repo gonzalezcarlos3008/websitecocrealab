@@ -57,7 +57,8 @@
     background:hsl(100, 58%, 68%);
 }
 .serviceBox.yellow:hover{
-    background:hsl(48, 99%, 66%);
+   /* background:hsl(48, 99%, 66%);*/
+    background: #F1C50E;
 }
 
 @media screen and (max-width: 990px){
