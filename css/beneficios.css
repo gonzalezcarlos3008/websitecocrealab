@@ -1,33 +1,33 @@
 
 .row{
-    margin-bottom: 50px;
+    margin-bottom: 50px;/*espacio inferior de las filas*/
 }
-.serviceBox{
+/*codigo de color rojo en caso de agregrar un nuevo beneficio #f44336*/
+.serviceBox{/*caracteristicas generales de las cajas de servicio*/
     text-align: center;
     padding:70px 20px;
     border-bottom:4px solid hsl(189, 100%, 40%);
-  /* background:hsl(0, 0.0%, 19.6%);*/
-   background:#505050;
+    background:#505050;
     float:left;
     transition:all 0.5s ease-in-out;
     margin: 0 -15px;
 }
-.serviceBox.light_green{
+.serviceBox.light_green{/*borde de caja verde*/
     border-bottom:4px solid hsl(100, 58%, 68%);
 }
-.serviceBox.yellow{
+.serviceBox.yellow{/*borde de caja amarillo*/
     border-bottom:4px solid hsl(48, 60%, 66%);
 }
 
-.serviceBox .service-icon i{
+.serviceBox .service-icon i{/*cararteristicas generales de los iconos*/
     color: hsl(189, 100%, 40%);
     font-size: 48px;
     text-align: center;
 }
-.serviceBox.light_green .service-icon i{
+.serviceBox.light_green .service-icon i{/*color verde del icono*/
     color:hsl(100, 58%, 68%);
 }
-.serviceBox.yellow .service-icon i{
+.serviceBox.yellow .service-icon i{/*color naranja del icono*/
     color:hsl(48, 99%, 66%);
 }
 
@@ -35,33 +35,34 @@
     color: hsl(189, 100%, 40%);
     font-size:23px;
 }
-.serviceBox.light_green .service-content h3{
+.serviceBox.light_green .service-content h3{/*color verde del titulo*/
     color:hsl(100, 58%, 68%);
 }
-.serviceBox.yellow .service-content h3{
+.serviceBox.yellow .service-content h3{/*color naranja del titulo*/ 
     color:hsl(48, 99%, 66%);
 }
 
-.serviceBox .service-content p{
+.serviceBox .service-content p{/*color del texto en los parrafos*/
     color:#fff;
 }
-.serviceBox:hover .service-content h3, .serviceBox:hover .service-icon i{
+.serviceBox:hover .service-content h3, .serviceBox:hover .service-icon i{/*color del 
+	icono y de los titulos al desencadenar el efecto*/
     color:#fff;
 }
-.serviceBox:hover{
+.serviceBox:hover{/*caracteristicas generales del efecto hover*/
     background:hsl(189, 100%, 40%);
     transition:all 0.5s ease-in-out;
     color:#fff;
 }
-.serviceBox.light_green:hover{
+.serviceBox.light_green:hover{/*modificacion del efecto hover para caja de servicio color verde*/
     background:hsl(100, 58%, 68%);
 }
-.serviceBox.yellow:hover{
-   /* background:hsl(48, 99%, 66%);*/
+.serviceBox.yellow:hover{/*modificacion del efecto hover para caja de servicio color amarillo*/  
     background: #F1C50E;
 }
 
-@media screen and (max-width: 990px){
+@media screen and (max-width: 990px){/*modificacion del tamaño de las filas
+ cuando el tamaño de la pantalla supera el limite*/
     .serviceBox{
         margin-bottom: 30px;
 
@@ -70,6 +71,8 @@
        margin-bottom: 20px; 
     }
 }
+/*modificacion del margen en las cajas de servicio cuando
+el tamaño de la pantalla pantalla supera el limite*/
 @media screen and (max-width: 767px){
     .serviceBox{
         margin: 0 0 30px 0;
