@@ -1,0 +1,30 @@
+
+
+.caption h3{
+	text-align: center;
+}
+
+.galeria_equipo
+{
+    margin-bottom: 30px;
+}
+.service-icon span{
+	font-size:28px;
+	width:50px;
+	margin-left: 4px; 
+	padding-left: 0px;
+	text-align: left;
+}
+.service-icon .fa-book {
+	font-size:28px;
+	width:50px; 
+}
+
+
+.btn{
+background: #3F729B;
+color: white;
+margin-bottom: 13px;
+height: 50px;
+width: 240px;
+}
