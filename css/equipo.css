@@ -1,14 +1,14 @@
 
 
-.caption h3{
+.caption h3{/*alineación del título*/
 	text-align: center;
 }
 
 .galeria_equipo
 {
-    margin-bottom: 30px;
+    margin-bottom: 30px;/*margen inferior*/
 }
-.service-icon span{
+.service-icon span{/*características generales de los iconos*/
 	font-size:28px;
 	width:50px;
 	margin-left: 4px; 
@@ -17,7 +17,7 @@
 }
 
 
-.btn{
+.btn{/*características generales de los botones*/
 background: #3F729B;
 color: white;
 margin-bottom: 13px;
@@ -25,18 +25,18 @@ height: 70px;
 width: 245px;
 }
 
-.container-r{
+.container-r{/*margen inferior del contenedor global */
 
     margin-bottom: 10px;
 }
 
-#galeria{
+#galeria{/*color y espacio del fondo de la página*/
   padding: 100px 0;
   background: #f5f5f5;
 }
 
 
-.caja{
+.caja{/*características de las cajas*/
 	position: relative;
 	box-shadow: 5px 5px 15px #555;
 	padding-bottom: 2%;
@@ -44,15 +44,15 @@ width: 245px;
 
 }
 
-.caja img{
+.caja img{/*tamaño de las imagenes*/
 	width: 100%;
 	height: auto;
 }
-.caja:hover{
-	box-shadow: 5px 5px 50px #555;
+.caja:hover{/*efecto hover de la caja*/
+	box-shadow: 5px 5px 50px #555;/*aumento del tamaño de la sombra*/
 	
 }
-.caja .over-layer{
+.caja .over-layer{/*contenedor de los títulos con opacidad 0 para ocultarlo*/
 width: 100%;
     height: 100%;
     position: absolute;
@@ -64,11 +64,11 @@ width: 100%;
     transition: all 0.5s ease 0s;
 }
 
-.caja:hover .over-layer{
+.caja:hover .over-layer{/*se cambia la opacidad para mostrar el contenido al pasar el mouse*/
     opacity: 1;
 }
 
-.caja .caja-content{
+.caja .caja-content{/*ubicación y tamaño de contedor acá se encuentra el cargo de la persona*/
     width: 100%;
     position: absolute;
     top: -100%;    
@@ -76,7 +76,7 @@ width: 100%;
     transition: all 0.5s ease 0s;
 }
 
-.caja .caja-content2{
+.caja .caja-content2{/*ubicación y tamaño de contedor acá se encuentra el nombre de la persona*/
 	width: 100%;
     position: absolute;
     top: 100%;    
@@ -84,21 +84,21 @@ width: 100%;
     transition: all 0.5s ease 0s;
 }
 
-.caja:hover .caja-content{
+.caja:hover .caja-content{/*nueva posición*/
     top: 0;
 
 }
 
-.caja:hover .caja-content2{
+.caja:hover .caja-content2{/*nueva posición*/
     top: 76%;
 
 }
 
-.caja:hover .caption .title{
+.caja:hover .caption .title{/*se oculta el nombre inicial para mostrar el que se encuentra en "content-2"*/
 	opacity: 0;
 		
 } 
-.caja .caja-content:after{
+.caja .caja-content:after{/*contenido que se agrega para ubicar el cargo de la persona y mostrar una línea inferior*/
     content: "";
     width: 30%;
     display: block;
@@ -106,7 +106,7 @@ width: 100%;
     border-bottom: 2px solid #fff;
 }
 
-.caja .caja-content .title,.caja .caja-content2 .title{
+.caja .caja-content .title,.caja .caja-content2 .title{/*características aplicadas a los 2 títulos */
     font-size: 22px;
    color: white;
     margin-bottom: 15px;
@@ -114,9 +114,11 @@ width: 100%;
 }
 
 
-@media screen and (max-width: 767px){
+@media screen and (max-width: 767px){/*modificación del tamaño de las filas
+ cuando el tamaño de la pantalla supera el límite*/
    
-.container-r{
+.container-r{/*se reducen todos los espacios para que se visualice mejor en dispositivos
+    moviles*/
     margin-left:0px;
     padding-left: 0px;
     margin-right: 0px;
@@ -129,7 +131,7 @@ width: 100%;
 	
 }
 
-.btn{
+.btn{/*se cambian las características para que los botones se acomoden en un dispositivo móvil*/
 background: #3F729B;
 color: white;
 margin-bottom: 13px;
